@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 28px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  background-color: black;
+  padding: 15px 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  margin: 0 30px;
+  font-weight: bold;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.btn {
+  font-size: 20px;
+  width: 200px;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 20px;
+  margin: 30px 10px;
+  cursor: pointer;
+}
+
+.section-one {
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 100px 180px 0 180px;
+  background:linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+
+  background-repeat: no-repeat;
+}
+.phoneImage-div {
+  margin: 0 40px;
+  padding: 30px 10px 0 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.phone-image {
+  max-height: 420px;
+}
+.top-div {
+  width: 50%;
+  line-height: 54px;
+  font-size: 32px;
+  color: white;
+  align-items: center;
+}
+.section-two {
+  align-items: center;
+  width: 100%;
+  padding: 100px 180px 100px 180px;
+}
+.section-two h1 {
+  font-size: 36px;
+}
+.questionaire {
+  width: 100%;
+  margin: 30px 0;
+}
+.question {
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  padding: 30px 20px;
+  text-align: left;
+}
+.question:hover {
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+}
+.answer {
+  font-size: 16px;
+  width: 100%;
+  padding: 30px 20px;
+  text-align: left;
+}
+.answer p {
+  margin: 8px 0;
+}
+
+.logo {
+  max-width: 140px;
+}
+.logo-s {
+  max-width: 140px;
+  max-height: 60px;
+  margin-right: 10px;
+}
+footer {
+  background-color: black;
+  padding: 60px 80px;
+  color: white;
+}
+.right {
+  width: 60%;
+  justify-content: space-between;
+}
+.right div {
+  margin: 0 20px;
+  
+}
+
+/* url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat,  */
